@@ -1,0 +1,63 @@
+.app {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.input-section {
+  margin: 20px 0;
+}
+
+.input-section input {
+  padding: 8px;
+  margin: 5px;
+  width: 180px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.task-content {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.task-text {
+  font-weight: bold;
+}
+
+.task-meta {
+  color: #555;
+  font-size: 0.85em;
+}
+
+.header {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* .header{
+  color:greenyellow;
+} */
